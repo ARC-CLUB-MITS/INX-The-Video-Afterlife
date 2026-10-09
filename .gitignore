@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+node_modules/
+dist/
+.vscode/
+
+# Step 5 generated FAISS indexes and local embedding artifacts
+backend/data/faiss_indexes/*.faiss
+backend/data/faiss_indexes/*.json

@@ -1,0 +1,9 @@
+{
+  "name": "inx-live-transcript-bridge",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "dependencies": {
+    "get-youtube-transcript": "^1.0.0"
+  }
+}
