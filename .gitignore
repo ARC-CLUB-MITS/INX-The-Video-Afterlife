@@ -1,11 +1,24 @@
+# Python virtual environments
+.venv/
 venv/
+backend/.venv/
+
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Node.js
 node_modules/
 dist/
+
+# IDE
 .vscode/
 
-# Step 5 generated FAISS indexes and local embedding artifacts
+# Generated FAISS indexes and local embedding artifacts
 backend/data/faiss_indexes/*.faiss
 backend/data/faiss_indexes/*.json
